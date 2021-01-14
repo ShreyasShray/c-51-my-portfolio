@@ -1,0 +1,32 @@
+h1{color: brown; }
+/**{border: solid;}*/
+.header{
+    background-color: rgb(93, 232, 236);
+    display: flex;
+    /*justify-content: space-between:*/
+    flex-direction: column;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+.grid{
+    background-color: cyan;
+}
+
+body{
+    background-color: #ffff00;
+}
+
+/*h2, p{
+    text-align: center;
+}*/
+
+h2, p{
+    font-size: 20px;
+}
